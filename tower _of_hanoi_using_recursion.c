@@ -13,7 +13,7 @@ void toh(char src, char aux, char dst, int n){
   }
   else{
     toh(src,dst,aux,n-1);
-    printf("Move %d disk from %c --> %c",n,src,dst);
+    printf("Move %d disk from %c --> %c\n",n,src,dst);
     toh(aux,src,dst,n-1);
   }
 }
