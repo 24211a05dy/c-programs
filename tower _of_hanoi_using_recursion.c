@@ -3,7 +3,7 @@ void toh(char src, char aux, char dst, int n);
 void main(){
   int n;
   printf("Enter no of disks :"); 
-  scanf("%d,&n);
+  scanf("%d",&n);
   printf(" steps to solve tower of hanoi with %d disks :\n",n);
   toh('A','B','C',n);
 }
